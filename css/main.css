@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    margin: 0;
+}
+
+/* GAME*/
+
+body {
+    background-image: url(/image/fundo1.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#logoSuperMario {
+    width: 300px;
+}
+
+.displayLogin {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: #75757544;
+    padding: 25px 10px 50px 10px;
+    border-radius: 10px;
+    width: 500px;
+}
+.displayLogin h2 {
+    font-size: 20px;
+    color: rgb(170, 0, 0);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+.seletorPersonagens img{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+
+    
+}
+.seletorPersonagens label{
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(167, 0, 0);
+    text-align: center;
+}
+
+.placarClass {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+
+    left: 94%;
+    top: 1%;
+    width: 250px;
+    padding: 10px;
+}
+
+#cogumeloLp {
+    width: 100px;
+}
+
+#placar {
+    font-size: 80px;
+    color: white;
+    font-family: Calibri;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+    padding: 30px;
+    text-align: center;
+}
+
+/* FORMULARIO*/
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(5, 5, 82);
+
+}
+
+.box {
+    width: 600px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.box p {
+    font-weight: bold;
+    color: darkblue;
+}
+
+label {
+    font-size: 10px;
+    color: #0b0286;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+}
+
+input[type="button"],
+input[type="reset"] {
+    margin-top: 17px;
+    height: 23px;
+    font-size: 11px;
+    background-color: rgb(130, 183, 243);
+    color: black;
+    border: 0;
+    box-shadow: rgb(5, 5, 82) 4px 3px;
+    transform-box: initial;
+
+
+}
+
+input[type="button"]:active,
+input[type="reset"]:active {
+    font-weight: bold;
+    font-stretch: semi-expanded;
+    background-color: rgb(5, 5, 82);
+    color: white;
+    border: 0;
+    margin-bottom: 5px;
+    box-shadow: rgb(5, 5, 82) 0px 0px;
+}

@@ -1,0 +1,39 @@
+<!-- Tarefas a serem realizadas até às 20h30
+1) Comentar todas as funcoes (criar um cabecalho contendo o padrao: Objetivo, Parametros, Exemplo de chamada)
+2) Criar uma funcao para exibir um fundo diferente toda vez que a página for carregada. A imagem deve ocupar o viewport do navegador
+3) Criar o placar do jogo (localizado no canto superior direito), contendo a pontuação + imagem do cogumelo
+4) Cair um novo cogumelo assim que o cogumelo anterior tocar o solo
+5) Colocar um botao no centro da tela para iniciar o jogo + opcao para selecionar jogador (mario e luigi) + nível de dificuldade (3 níveis relacionados a velocidade)
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/restom.css" />
+    <script src="/js/main.js"></script>
+    <script src="/js/move.js"></script>
+
+
+    <script>
+
+    </script>
+</head>
+
+<body onload="iniciarJogo()">
+    <img id="cogumelo" src="/image/cogumelo.gif" style="width: 2.2%" alt="">
+    <img id="mario" src="/image/marioRight.gif" style="width: 5%" alt="">
+    <div class="linha placarClass">
+        <div class="col-dg-6 col-dm-6">
+            <p><span id="placar">0</span></p>
+        </div>
+        <div class="col-dg-6 col-dm-6">
+            <img id="cogumeloLp" src="/image/cogumeloImage.png">
+        </div>
+    </div>
+
+</body>
+
+</html>
